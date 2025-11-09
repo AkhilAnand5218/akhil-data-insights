@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Akhil Data Insights</title>
+  <meta name="title" content="Akhil Data Insights | Data Analyst Portfolio">
+  <meta name="description" content="Explore data analytics, Power BI dashboards, and machine learning projects by Akhil Anand T — a data analyst skilled in SQL, Python, Tableau, Excel, and Power BI.">
+  <meta name="keywords" content="Akhil Anand T, data analyst, Power BI, Tableau, SQL, Excel, machine learning, data analytics portfolio, GitHub Pages, Akhil Data Insights">
+  <meta name="author" content="Akhil Anand T">
+  <meta name="robots" content="index, follow">
+  <style>
+    :root{
+      --bg:#071029; /* deep navy */
+      --card:#0f1724;
+      --muted:#98a0b3;
+      --glass: rgba(255,255,255,0.04);
+      --accent:#00e0ff; /* cyan */
+      --accent-2:#1fb6ff;
+      --accent-glow: 0 8px 30px rgba(31,182,255,0.08), 0 2px 6px rgba(0,224,255,0.06);
+      --radius:12px;
+      --max-width:1100px;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", monospace;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial; background:linear-gradient(180deg,var(--bg),#031021);color:#e6eef6}
+
+    a{color:var(--accent);text-decoration:none}
+
+    header{max-width:var(--max-width);margin:28px auto 6px;padding:20px;border-radius:14px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));display:flex;align-items:center;gap:16px}
+    .logo{width:64px;height:64px;border-radius:12px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:flex;align-items:center;justify-content:center;font-weight:800;color:#031021;font-size:20px;box-shadow:var(--accent-glow)}
+    .site-title{flex:1}
+    .site-title h1{margin:0;font-size:20px;letter-spacing:0.4px}
+    .site-title p{margin:4px 0 0;color:var(--muted);font-size:13px}
+
+    nav{max-width:var(--max-width);margin:12px auto;display:flex;gap:10px;justify-content:center;padding:8px}
+    .nav-link{padding:8px 12px;border-radius:10px;color:var(--muted);font-weight:600}
+    .nav-link:hover{background:rgba(255,255,255,0.02);color:var(--accent)}
+
+    main{max-width:var(--max-width);margin:22px auto;padding:18px}
+    section{margin:18px 0}
+    h2{color:#dff8ff;text-align:center;margin-bottom:8px}
+    .lead{color:var(--muted);text-align:center;max-width:820px;margin:0 auto}
+
+    .grid-2{display:grid;grid-template-columns:1fr 380px;gap:18px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:var(--radius);padding:16px;box-shadow:0 6px 20px rgba(2,6,23,0.6)}
+
+    .services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+    .service{padding:12px;border-radius:10px;background:var(--glass);border:1px solid rgba(255,255,255,0.02)}
+
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .skill{background:rgba(0,0,0,0.2);padding:8px 10px;border-radius:999px;color:var(--muted);font-weight:600}
+
+    .projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+    .project-card{padding:14px;border-radius:12px;background:linear-gradient(180deg, rgba(31,182,255,0.02), rgba(0,0,0,0.12));border:1px solid rgba(31,182,255,0.06)}
+    .meta{font-size:13px;color:var(--muted);margin-top:6px}
+
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:10px;font-weight:700}
+    .btn-primary{background:linear-gradient(90deg,var(--accent),var(--accent-2));color:#021426;box-shadow:var(--accent-glow);border:none}
+    .btn-ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--accent);}
+    .small{font-size:13px;color:var(--muted)}
+
+    .contact-actions{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:10px}
+
+    footer{max-width:var(--max-width);margin:30px auto 60px;text-align:center;color:var(--muted);font-size:13px}
+
+    @media (max-width:980px){.grid-2{grid-template-columns:1fr}.site-title h1{font-size:18px}}
+    @media (max-width:520px){header{flex-direction:column;align-items:flex-start;padding:14px}.logo{width:56px;height:56px}}
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">AI</div>
+    <div class="site-title">
+      <h1>Akhil Data Insights</h1>
+      <p>Modern analytics, dashboards & ML — turning data into decisions</p>
+    </div>
+    <div style="display:flex;gap:8px;align-items:center">
+      <a class="btn btn-ghost" href="https://github.com/AkhilAnand5218" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn btn-ghost" href="https://www.linkedin.com/in/akhil-anand-t-a42a19224" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </header>
+
+  <nav>
+    <a class="nav-link" href="#home">Home</a>
+    <a class="nav-link" href="#about">About</a>
+    <a class="nav-link" href="#services">Services</a>
+    <a class="nav-link" href="#projects">Projects</a>
+    <a class="nav-link" href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="home">
+      <h2>Welcome</h2>
+      <p class="lead">Hi — I'm <strong>Akhil Anand T</strong>. I build dashboards, analytics pipelines, and machine learning solutions that help startups and small businesses make faster, smarter decisions. Based in Thrissur, Kerala — B.Com graduate with 2+ years sales experience and practical analytics internship experience.</p>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <div class="card grid-2">
+        <div>
+          <p class="small">I am a Data Analyst experienced in Power BI, Tableau, MySQL, Python and Excel. I have completed internships at Infotact and Techolas Technologies, working on projects such as real-time transit monitoring (Ghost Bus Detector) and e-commerce behaviour analytics (Herd Behaviour Alerter).</p>
+
+          <p class="small" style="margin-top:12px"><strong>Experience & Highlights</strong></p>
+          <ul style="color:var(--muted);margin-top:8px">
+            <li>2+ years in sales (gold & home loans) — strong business domain knowledge</li>
+            <li>Internships: Ghost Bus Detector & Herd Behaviour Alerter</li>
+            <li>Tools: Power BI, Tableau, MySQL, Python, Streamlit, Excel</li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="card" style="background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.005));">
+            <h3 style="margin:0">What I Offer</h3>
+            <p class="small" style="margin-top:8px">Custom dashboards, SQL analysis, ML prototypes, and end-to-end data consulting for small businesses and startups.</p>
+            <div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap">
+              <span class="skill">Power BI</span>
+              <span class="skill">Tableau</span>
+              <span class="skill">MySQL</span>
+              <span class="skill">Python</span>
+              <span class="skill">Excel (Advanced)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <h2>Services</h2>
+      <div class="card services-grid">
+        <div class="service">
+          <h4 style="margin:0">Dashboard Development</h4>
+          <p class="small" style="margin-top:6px">Power BI & Tableau dashboards with automated refresh, KPIs and executive-ready visuals.</p>
+        </div>
+        <div class="service">
+          <h4 style="margin:0">SQL & Data Pipelines</h4>
+          <p class="small" style="margin-top:6px">MySQL querying, ETL, data modelling and performance-oriented data prep.</p>
+        </div>
+        <div class="service">
+          <h4 style="margin:0">Machine Learning</h4>
+          <p class="small" style="margin-top:6px">Classification & predictive prototypes with Gradio/Streamlit demos for stakeholders.</p>
+        </div>
+        <div class="service">
+          <h4 style="margin:0">Excel Automation</h4>
+          <p class="small" style="margin-top:6px">Advanced Excel workbooks, data cleaning and reporting automation.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+
+        <div class="project-card">
+          <h3>Greenhouse Plant Growth Prediction</h3>
+          <p class="meta">Machine Learning Project — June 2025</p>
+          <p class="small">Classifies plant growth stages across IoT-enabled and traditional greenhouses using environmental data. Models tested: Logistic Regression, SVC, KNN, Decision Tree, Random Forest (Random Forest achieved 100%). Built a Gradio interface for real-time predictions.</p>
+          <div style="margin-top:10px;display:flex;gap:8px;flex-wrap:wrap">
+            <a class="btn btn-primary" href="https://github.com/AkhilAnand5218/machine-learning-project" target="_blank" rel="noopener">View on GitHub</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Tesla Vehicle Delivery Analysis</h3>
+          <p class="meta">Tableau Project — May 2025</p>
+          <p class="small">Interactive Tableau dashboard summarizing vehicle delivery KPIs and trends from 2012–2024 for executive insights.</p>
+          <div style="margin-top:10px"><a class="btn btn-primary" href="https://github.com/AkhilAnand5218/tableau-project" target="_blank" rel="noopener">View on GitHub</a></div>
+        </div>
+
+        <div class="project-card">
+          <h3>Child Weight Categories Analysis</h3>
+          <p class="meta">Power BI Project — May 2025</p>
+          <p class="small">Epidemiological BMI category analysis with population-level visualizations for child health monitoring.</p>
+          <div style="margin-top:10px"><a class="btn btn-primary" href="https://github.com/AkhilAnand5218/power-bi-project" target="_blank" rel="noopener">View on GitHub</a></div>
+        </div>
+
+        <div class="project-card">
+          <h3>Companies Operating in India</h3>
+          <p class="meta">Excel Project — June 2025</p>
+          <p class="small">Analytical Excel dashboard using employee reviews and operational metrics to summarize companies operating in India.</p>
+          <div style="margin-top:10px"><a class="btn btn-primary" href="https://github.com/AkhilAnand5218/excel-project" target="_blank" rel="noopener">View on GitHub</a></div>
+        </div>
+
+        <div class="project-card">
+          <h3>E-commerce Sales Analytics Project</h3>
+          <p class="meta">MySQL & Power BI — 2022–2025</p>
+          <p class="small">Analyzed marketplace sales data to identify revenue patterns, customer behaviour and top product categories. Tech: MySQL, Power BI, Excel.</p>
+          <div style="margin-top:10px"><a class="btn btn-primary" href="https://github.com/AkhilAnand5218/ecommerce-sales-analytics" target="_blank" rel="noopener">View on GitHub</a></div>
+        </div>
+
+        <div class="project-card">
+          <h3>Ghost Bus Detector</h3>
+          <p class="meta">Internship Project — Real-time Transit Monitoring</p>
+          <p class="small">Processed GTFS-Realtime feeds to detect ghost buses, visualized active vs ghost buses on a map and pushed updates via WebSockets. Built with Python (FastAPI) and React + Leaflet.</p>
+          <div style="margin-top:10px"><a class="btn btn-primary" href="https://github.com/AkhilAnand5218/ghost-bus-detector" target="_blank" rel="noopener">View on GitHub</a></div>
+        </div>
+
+        <div class="project-card">
+          <h3>Herd Behaviour Alerter</h3>
+          <p class="meta">Internship Project — E-commerce Behaviour Detection</p>
+          <p class="small">Detects sudden spikes in product interest using behavioral analytics. Built with Python & Streamlit, using Pandas/Numpy and Matplotlib for processing & visuals.</p>
+          <div style="margin-top:10px"><a class="btn btn-primary" href="https://github.com/AkhilAnand5218/herd-behavior-alerter" target="_blank" rel="noopener">View on GitHub</a></div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact & Resume</h2>
+      <div class="card" style="text-align:center">
+        <p class="small">Interested in a dashboard, data audit, or custom analytics solution? Let's talk.</p>
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="resume.pdf" download>Download Resume</a>
+          <a class="btn btn-ghost" href="mailto:akhilanand5218@gmail.com">Email</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/akhil-anand-t-a42a19224" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+        <p class="small" style="margin-top:12px">© 2025 Akhil Data Insights — Built by Akhil Anand T</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <small>Made with care • Projects & dashboards available on request • Change the site name anytime</small>
+  </footer>
+</body>
+</html>
